@@ -118,24 +118,24 @@ main .card-container .price-card__description {
   color: #fff;
 }
 
-main .card-container .price-card__option-list {
+main .card-container .price-card__options-list {
   margin: 40px 0 0;
   padding: 0;
   list-style-type: none;
 }
 
-main .card-container .price-card__option-list img {
+main .card-container .price-card__options-list img {
   margin: 0 22px 0;
 }
 
-main .card-container .price-card__option-list-item {
+main .card-container .price-card__options-list-item {
   font-size: 15px;
   line-height: 50px;
   font-weight: 300;
   color: #fff;
 }
 
-main .card-container .price-card__option-list-item:nth-child(2n + 1) {
+main .card-container .price-card__options-list-item:nth-child(2n + 1) {
   background-color: #2a3438;
 }
 
