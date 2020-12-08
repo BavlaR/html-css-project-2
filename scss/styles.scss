@@ -22,20 +22,7 @@ main {
          background-color: #334247;
          &-popular {
             display: flex;
-
             padding-left: 108px;
-            &__title {
-               margin: 0;
-               font-size: 35px;
-               line-height: 43px;
-               text-align: center;
-               color: $textColor;
-               span {
-                  font-size: 20px;
-                  line-height: 24px;
-                  font-weight: 300;
-               }
-            }
             &__corner-info {
                position: relative;
                bottom: 13px;
@@ -57,10 +44,12 @@ main {
          }
          &__title {
             margin: 0;
-            font-size: 35px;
-            line-height: 43px;
             text-align: center;
             color: $textColor;
+            b {
+               font-size: 35px;
+               line-height: 43px;
+            }
             span {
                font-size: 20px;
                line-height: 24px;

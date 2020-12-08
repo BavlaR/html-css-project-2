@@ -39,20 +39,6 @@ main .card-container .price-card-popular {
   padding-left: 108px;
 }
 
-main .card-container .price-card-popular__title {
-  margin: 0;
-  font-size: 35px;
-  line-height: 43px;
-  text-align: center;
-  color: #fff;
-}
-
-main .card-container .price-card-popular__title span {
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 300;
-}
-
 main .card-container .price-card-popular__corner-info {
   position: relative;
   bottom: 13px;
@@ -79,10 +65,13 @@ main .card-container .price-card-popular__corner-info span {
 
 main .card-container .price-card__title {
   margin: 0;
-  font-size: 35px;
-  line-height: 43px;
   text-align: center;
   color: #fff;
+}
+
+main .card-container .price-card__title b {
+  font-size: 35px;
+  line-height: 43px;
 }
 
 main .card-container .price-card__title span {
